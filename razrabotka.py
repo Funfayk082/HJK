@@ -1,8 +1,13 @@
 def input_R()
-
+     while True:
+        x = int(input('Введите начальное значение = '))
+        if x > 0:
+            break
+        print('Недопустимое значение')
+    return x
 
 def x2()
-#Лиза
+     return collatz(x // 2)
 
 
 def x3_1()
