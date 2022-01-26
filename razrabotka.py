@@ -7,6 +7,7 @@ def x2()
 
 def x3_1()
 #Коля
+    return collatz( n*3+1 )
 
 
 def collatz()
